@@ -1,0 +1,65 @@
+/*
+Seletor de elemento
+*/
+
+body {
+    background-color: brown;
+    
+}
+
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+div {
+    background-color: aqua;
+    place-self: center;
+    max-height: 100vh;
+    max-width: 100vh;
+    padding: 50px;
+    border-style: solid;
+    border-radius: 300px;
+    margin-top: 30px;
+}
+
+/*
+Seletor de classe
+*/
+
+.teste {
+    align-self: center;
+    width: 300px;
+    
+}
+
+.estiloso {
+    border-style: solid;
+}
+
+/*
+Afeta apenas os elementos que possuem x classe
+*/
+
+p.centraliza{
+    text-align: center;
+}
+
+/*
+Seletor de ID
+*/
+
+#teste1 {
+    background-color: green;
+}
+
+#seleID {
+    background-color: black;
+    color: burlywood;
+}
+
