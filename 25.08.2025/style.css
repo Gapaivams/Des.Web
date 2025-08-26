@@ -1,0 +1,49 @@
+*{
+    color: darkred;
+}
+
+body {
+    background-color: rgb(200, 180, 68);
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(200, 0, 0);
+}
+
+header p{
+    text-align: center;
+    margin-top: 45px;
+}
+
+.navegacao {
+    place-self: center;
+    margin: 40px;
+}
+
+.navegacao a {
+    text-decoration: none;
+}
+
+#tabela {
+    margin-top: 200px;
+    place-self: center;
+}
+
+#biografia {
+    margin-top: 200px;
+    place-self: center;
+    width: 40vw;
+}
+
+#rodape {
+    margin-top: 300px;
+    align-self: bottom;
+    justify-self: center;
+}
+
+#foto {
+    width: 100px;
+    height: 100px;
+}
