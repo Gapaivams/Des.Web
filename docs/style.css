@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(200, 200, 200);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.central {
+    text-align: center;
+}
+
+.menu{
+    background-color: gray;
+    padding: 0.3rem;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 0.3rem;
+    padding-right: 1rem;
+    background-color: rgb(255,255,255);
+    border-right-style: solid;
+    border-right-color: red;
+
+}
+
+.menu a:hover{
+    background-color: darkorange;
+    color: aqua;
+    transition: 0.3s;
+}
+
+.menu li {
+    display: inline;    
+    background-color: rgb(255,255,255);
+    margin: 0.6rem;
+}
+
+tr{
+    border: solid;
+}
+
+td{
+    padding-right: 0.3rem;
+    border: solid;
+}
+
+
+
