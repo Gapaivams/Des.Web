@@ -1,15 +1,58 @@
 body {
-    background-color: rgb(200, 200, 200);
+    background-color: #61828A;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #ABC3CD;
+    width: 20rem;
+    height: 5rem;
+    place-self: center;
+    margin-bottom: 2rem;
+}
+
+header h1{
+    padding-top: 1.3rem;
 }
 
 .central {
     text-align: center;
 }
 
-.menu{
-    background-color: gray;
+.contFormat{
+    background-color: #ABC3CD;
+    width: 50rem;
+    height: auto;
+    margin-top: 4rem;
     padding: 0.3rem;
+    place-self: center;
+}
+
+.contFormat h2 {
+    display: inline-block;
+    border: solid;
+    padding: 0.5rem;
+}
+
+.secTitle {
+    text-align: center;
+}
+
+.secContent img {
+    display: block;
+    margin: auto;
+    place-self: center;
+    width: 15rem;
+    height: 20rem;
+    border: solid;
+}
+
+.menu{
+    background-color: #ABC3CD;
+    width: 34rem;
+    height: 3rem;
+    padding: 0.3rem;
+    place-self: center;
 }
 
 .menu a{
@@ -17,9 +60,9 @@ body {
     color: black;
     padding: 0.3rem;
     padding-right: 1rem;
-    background-color: rgb(255,255,255);
+    background-color: #DFE9EB;
     border-right-style: solid;
-    border-right-color: red;
+    border-right-color: #8dabad;
 
 }
 
@@ -35,13 +78,23 @@ body {
     margin: 0.6rem;
 }
 
-tr{
+.academy {
+    margin-top: 5rem;
     border: solid;
 }
 
-td{
-    padding-right: 0.3rem;
+.academy p {
+    margin: 1rem;
+}
+
+.content {
+    background-color: #A9CCCF;
     border: solid;
+    margin-top: 3rem;
+    width: 60%;
+    height: 60%;
+    padding: 0.3rem;
+    place-self: center;
 }
 
 
