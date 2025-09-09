@@ -34,6 +34,11 @@ header h1{
     padding: 0.5rem;
 }
 
+.content a{
+    text-decoration: none;
+    margin-left: 3rem;
+}
+
 .secTitle {
     text-align: center;
 }
@@ -91,9 +96,9 @@ header h1{
     background-color: #A9CCCF;
     border: solid;
     margin-top: 3rem;
-    width: 60%;
+    width: 60rem;
     height: 60%;
-    padding: 0.3rem;
+    padding: 1.5rem;
     place-self: center;
 }
 
