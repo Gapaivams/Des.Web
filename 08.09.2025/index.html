@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>08/09/2025</title>
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+<body>
+    
+    <div>
+        <h1>Formularios HTML</h1>
+    </div>
+
+    <div class="form">
+        <form action="#" method="post">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Seu nome" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="email@email.com" required>
+
+            <label for="periodo">Periodo</label>
+            <input type="number" name="periodo" id="periodo" placeholder="0" max="6" min="1" pattern="">
+
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" required>
+
+            <label for="nasc">Nascimento</label>
+            <input type="datetime" name="nasc" id="nasc">
+
+            <label for="range">Range</label>
+            <input type="range" name="range" id="range" min="0" max="5">
+
+            <p>Voce gosta de estudar?</p>
+            <label for="estuda">Sim</label>
+            <input type="radio" name="estuda">
+            <label for="naoestuda">Não</label>
+            <input type="radio" name="estuda">
+
+            <p>Quais materias voce mais gosta</p>
+            <label for="alg">Algoritmo</label>
+            <input type="checkbox" name="alg" id="alg">
+            <label for="web">Des. Web</label>
+            <input type="checkbox" name="web" id="web">
+            <label for="bnc">Banco de Dados</label>
+            <input type="checkbox" name="bnc" id="bnc">
+
+            <input type="submit" value="Salvar">
+
+        </form>
+    </div>
+
+</body>
+
+</html>
