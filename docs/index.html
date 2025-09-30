@@ -12,29 +12,86 @@
 <body>
     <main>
 
-        <header class="central" id="sec1">
+        <header class="central" id="secStart">
             <h1>Curriculo</h1>        
         </header>
+
+        <div class="central nome">
+            <h2>Gabriel de Paiva Messias Silva</h2>
+            <p>Estudante de Analise e Desenvolvimento de Sistemas</p>        
+        </div>
         
         <nav class="menu">
             <ul class="central">
-                <li><a href="#sec1">Home</a></li>
-                <li><a href="#sec2">About me</a></li>
-                <li><a href="#sec3">Academic Exp.</a></li>
-                <li><a href="#sec4">Work Exp.</a></li>
+                <li><a href="#sec1">Dados Pessoais</a></li>
+                <li><a href="#sec2">Sobre mim</a></li>
+                <li><a href="#sec3">Experiencia academica</a></li>
+                <li><a href="#sec4">Experiencia de trabalho</a></li>
+                <li><a href="#sec5">Redes Sociais</a></li>
             </ul>
         </nav>
         
         <div class="content">
+
+            <section class="contFormat" id="sec1">
+                <div class="secTitle">
+                    <h2>Dados pessoais</h2>
+                </div>
+
+                <div class="secContent">
+                    <table>
+                        <tr>
+                            <td class="tableTitle">Telefone:</td>
+                            <td>(18)99790-6978</td>
+                        </tr>
+                        <tr>
+                            <td class="tableTitle">E-mail:</td>
+                            <td>gabriel.paiva.ms@hotmail.com</td>
+                        </tr>
+                        <tr>
+                            <td class="tableTitle">Endereço:</td>
+                            <td>R. Luis Lerco, nº 355, Terra Bonita, Londrina-PR</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+
+            <section class="contFormat">
+                <div class="secTitle">
+                    <h2>Habilidades e competencias</h2>
+                </div>
+
+                <div class="secContent">
+                    <table>
+                        <tr>
+                            <td class="tableTitle">Organização</td>
+            
+                        </tr>
+                        <tr>
+                            <td class="tableTitle">Trabalho em equipe</td>
+                            
+                        </tr>
+                        <tr>
+                            <td class="tableTitle">Aprendizagem continua</td>
+                            
+                        </tr>
+                        <tr>
+                            <td class="tableTitle">Proatividade</td>
+                            
+                        </tr>
+
+                    </table>
+                </div>
+            </section>
             
             <section id="sec2" class="contFormat">
                 
                 <div class="secTitle">
-                    <h2>About me - Gabriel de Paiva Messias Silva</h2>
+                    <h2>Sobre mim</h2>
                 </div>
                 
                 <div class="secContent">
-                    <img src="./imgs/Foto.jpeg" alt="Foto pessoal">
+                    <img src="./imgs/Foto.jpeg" alt="Foto pessoal" class="foto">
                     <p> Sou um profissional em busca de novas oportunidades, no qual poderei me desafiar, aprender coisas novas e contribuir para o meu ambiente de trabalho. </p>
                 </div>
                 
@@ -43,14 +100,14 @@
             <section id="sec3" class="contFormat">
                 
                 <div class="secTitle">
-                    <h2>Academic Experience</h2>
+                    <h2>Experiencia academica</h2>
                 </div>
                 
                 <div class="secContent">
                     
                     <div class="academy">
-                        <p>Centro Paulo Souza -</p>
-                        <p>ETEC Ensino médio completo 2018 - 2024</p>
+                        <p>ETEC - Centro Paulo Souza</p>
+                        <p>Ensino médio completo 2018 - 2024</p>
                     </div>
                     
                     <div class="academy">
@@ -65,7 +122,7 @@
             <section id="sec4" class="contFormat">
                 
                 <div class="secTitle">
-                    <h2>Work Experience</h2>
+                    <h2>Experiencia de trabalho</h2>
                 </div>
                 
                 <div class="secContent">
@@ -83,19 +140,30 @@
                 </div>
                 
             </section>
-            
+
+            <section id="sec5" class="contFormat">
+                <div class="secTitle">
+                    <h2>Redes Sociais</h2>
+                </div>
+                <div class="secContent">
+                    <table class="socials">
+                        <tr>
+                            <td class="tableTitle">GitHub:</td>
+                            <td><a href="https://github.com/Gapaivams" target="_blank"><img src="imgs/25231.png" alt="Icone GitHub" class="icon"></a></td>
+                        </tr>
+                        <tr>
+                            <td class="tableTitle">LinkedIn:</td>
+                            <td><a href="https://www.linkedin.com/in/gabriel-paiva-31b650350" target="_blank"><img src="imgs/logo-do-icone-do-linkedin.webp" alt="Icone Linkedin" class="icon"></a></td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
         </div>
     
+
+        <a href="#secStart" id="homeButtom"><img src="imgs/pngwing.com (1).png" alt="Seta para cima"></a>
     </main>
 
-    <footer class="content">
-        <div class="contFormat">
-            <h2>Links: </h2>
-            <a href="https://github.com/Gapaivams">Github</a>
-            <a href="gabriel.paiva.ms@hotmail.com">Email</a>
-            <p>Telefone: (18)99790-6978</p>
-        </div>
-    </footer>
 </body>
 
 </html>
