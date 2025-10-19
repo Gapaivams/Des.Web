@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td colspan="2">2</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td rowspan="2">2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <label for = " bio " > Apresentação </label>
+    <textarea id = " bio " name = " bio " rows = " 4 " cols = " 40 " placeholder = " Fale brevemente sobre você " maxlength = " 300 " > </textarea>
+
+    <label for = " curso " > Curso </label >
+    <select id = " curso " name = " curso " required >
+    <option value = " " > -- selecione -- </option >
+    <optgroup label = " Front - end " >
+    <option value = " html " > HTML </option >
+    <option value = " css " > CSS </option >
+    </optgroup >
+    <optgroup label = " Back - end " >
+    <option value = " node " > Node . js </option >
+    </optgroup >
+    </select >
+</body>
+</html>
