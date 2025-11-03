@@ -28,7 +28,7 @@ function trocarTam(){
 
 function alterarLamp(){
     let lamp = document.getElementById("lamp")
-    if(lamp.src.endsWith("img/pic_bulboff.gif")){
+    if(lamp.src.includes("img/pic_bulboff.gif")){
         lamp.src = "img/pic_bulbon.gif"
     } else{
         lamp.src = "img/pic_bulboff.gif"
