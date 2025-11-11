@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03/11/2025</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center bg-secondary p-4">
+                <h1 class="display-3">Formularios com Js</h1>
+            </div>
+        </div>
+
+
+
+        <div class="row mt-3">
+            <div class="col-md-3 text-center p-4"></div>
+            
+            <div class="col-md-6 p-4">
+
+                <!-- <div class="row">
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" name="nome" class="form-control" id="nome">
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="row mb-3">
+                    <div class="col">
+                        <label for="exampleinputemail1" class="form-label">Email address:</label>
+                        <input type="email" id="email" type="email" class="form-control" name="exampleinputemail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else</div>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col">
+                        <label for="exampledate" class="form-label">Birth:</label>
+                        <input type="date" id="date" class="form-control" name="exampledate">
+                    </div>
+                </div>
+
+
+                <div class="row mb-3">
+                    <div class="col">
+                        <button class="btn btn-outline-primary" onclick="getdados()">
+                            Salvar
+                        </button>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col">
+                        <p>Seu email é: <span id="output1">...</span></p>
+                        <p>Voce nasceu em: <span id="output2">...</span></p>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col" id="dados">
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+            <div class="col-md-3 text-center p-4"></div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script src="script/script.js"></script>
