@@ -117,6 +117,14 @@ function checarCheck(certas){
 
 
 function enviaResposta(){
+    const modal = document.getElementById("modal");
+
+    modal.classList.add("show")
+    
+    const nome = document.getElementById("nome").value;
+
+    document.getElementById("nomemodal").innerHTML = "Nome: " + nome;
+
     const respostasRad = [...document.querySelectorAll("input[type='radio']:checked")].filter(radio => radio.id).map(radio => radio.id);
     let certas = 0
 
@@ -134,4 +142,13 @@ function enviaResposta(){
 
 
     console.log(respostasRad)
+}
+
+
+
+
+function fecharmodal(){
+    const modal = document.getElementById("modal");
+
+    modal.classList.remove("show")
 }
